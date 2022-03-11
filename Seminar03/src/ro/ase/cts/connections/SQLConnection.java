@@ -7,6 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class SQLConnection implements IConnection {
+
     private Connection connection = null;
 
     @Override
@@ -40,5 +41,4 @@ public class SQLConnection implements IConnection {
             e.printStackTrace();
         }
     }
-
 }

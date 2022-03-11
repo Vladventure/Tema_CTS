@@ -1,16 +1,16 @@
 package ro.ase.cts.executors;
 
-import java.sql.Connection;
+import com.mongodb.client.MongoDatabase;
 import ro.ase.cts.statements.IStatement;
 
 import java.lang.reflect.InvocationTargetException;
 
-public class SQLExecutor implements IExecutable<Connection> {
+public class NoSQLExecutor implements IExecutable<MongoDatabase> {
 
     @Override
-    public void execute(Connection connection, String statementClass) {
+    public void execute(MongoDatabase connection, String statementClass) {
         try {
-            IStatement<Connection> statement = (IStatement<Connection>) Class.forName(statementClass).getDeclaredConstructor().newInstance();
+            IStatement<MongoDatabase> statement = (IStatement<MongoDatabase>) Class.forName(statementClass).getDeclaredConstructor().newInstance();
             statement.execute(connection);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -23,5 +23,6 @@ public class SQLExecutor implements IExecutable<Connection> {
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
+
     }
 }

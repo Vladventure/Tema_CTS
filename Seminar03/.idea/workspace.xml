@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf409b1d-3dd7-40ca-a687-29564868f13b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/connections/IConnection.java" afterDir="false" />
+    <list default="true" id="bf409b1d-3dd7-40ca-a687-29564868f13b" name="Changes" comment="Added project after SQL refactoring">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mongo_java_driver_3_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mongo-java-driver-3.12.4.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/connections/NoSQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/connections/SQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/executors/IExecutable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/executors/NoSQLExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/executors/SQLExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/orchestrators/Orchestrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/IStatement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/create/NoSQLCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/create/SQLCreate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/insert/NoSQLInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/insert/SQLInsert.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/select/NoSQLSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/cts/statements/select/SQLSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seminar03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/connections/IConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/connections/IConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/connections/SQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/connections/SQLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/executors/SQLExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/executors/SQLExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/sqlite-jdbc-3.30.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/mongo-java-driver-3.12.4.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1647023557351</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added project after SQL refactoring">
+      <created>1647030030569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647030030569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added project after SQL refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added project after SQL refactoring" />
   </component>
 </project>
